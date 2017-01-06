@@ -1,0 +1,29 @@
+{
+  "name": "bootsrap-skeleton",
+  "version": "1.0.0",
+  "description": "Edward's Bootstrap",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0",
+    "node-sass": "^4.1.1",
+    "jquery": "3.1.1"
+  },
+  "devDependencies": {
+    "@types/core-js": "0.9.34",
+    "@types/node": "6.0.46",
+    "concurrently": "3.1.0",
+    "lite-server": "2.2.2",
+    "typescript": "2.1.4"
+  }
+}
